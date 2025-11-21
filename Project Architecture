@@ -1,0 +1,28 @@
+Jarvis/
+│
+├── Speech I/O
+│   ├── listen()          → Microphone speech → text
+│   └── speak()           → text → Edge Neural TTS
+│
+├── Command Router
+│   └── execute()         → Matches command to actions
+│
+├── System Control
+│   ├── volume, brightness, wifi, bluetooth
+│   ├── lock, shutdown, restart
+│   └── window management
+│
+├── File Manager
+│   └── create/delete/move/copy/rename/search
+│
+├── Utilities
+│   └── screenshot, clipboard, typing, keypress
+│
+├── AI Model Handler
+│   └── ask_ai() → communicates with local mistral model
+│
+├── GUI (PyQt5)
+│   └── JarvisGUI class
+│
+└── Main Loop
+    └── start_jarvis()  → Wake-word detection (“Jarvis”)
